@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!-- iQOO Z9x | BSG MGC 9.7 | Android 16 / OriginOS 6 | v1 -->
+<!-- Adapted from the supplied Redmi Note 14 BSG/MGC example. -->
+<!-- Device-specific Redmi noise/HDR values are intentionally NOT copied. -->
+<map>
+    <!-- Core BSG capture -->
+    <string name="pref_camera_hdrplus_option_available_key">1</string>
+    <string name="pref_camera_hdr_plus_key">on</string>
+    <string name="device_hdrplus_key">0</string>
+    <string name="device_hdrplus_key_0">0</string>
+    <string name="pref_camera_resolution">full</string>
+    <string name="qjpg_key">100</string>
+    <string name="pref_camera_raw_output_option_available_key">1</string>
+    <string name="raw_key">1</string>
+
+    <!-- Stable frame counts: avoid copying Redmi-specific HDR frame tuning -->
+    <string name="frame_count_key">7</string>
+    <string name="frame_count_key_0">7</string>
+    <string name="frame_count_key_1">7</string>
+    <string name="frame_count_key_2">7</string>
+    <string name="frame_count_key_3">7</string>
+    <string name="frame_count_key_4">7</string>
+    <string name="frame_count_b_photo_0">10</string>
+    <string name="frame_count_b_photo_2">10</string>
+    <string name="frame_count_b_photo_3">10</string>
+
+    <!-- AWB: neutral starting point -->
+    <string name="gawb_key">NEXUS_EXPERIMENTAL_2016</string>
+    <string name="gawbratio_key">0</string>
+    <string name="gawbratio_key_1">0</string>
+    <string name="gawb_photo_b">0</string>
+    <string name="gawb_photo_f">0</string>
+    <string name="cawb_key">0</string>
+    <string name="cawb_key_0">0</string>
+    <string name="cawb_key_1">0</string>
+    <string name="cawb_key_2">0</string>
+    <string name="cawb_key_3">0</string>
+    <string name="cawb_key_4">0</string>
+    <string name="cawb_key_6">0</string>
+    <string name="cawb_key_7">0</string>
+
+    <!-- Color: vivid but not Redmi-specific -->
+    <string name="ptchr_saturation_key">ON</string>
+    <string name="ptchr_saturation_key_0">48FEE7D2</string>
+    <string name="ptchr_saturation_key_1">48FEE7D2</string>
+    <string name="ptchr_saturation_key_2">48FEE7D2</string>
+    <string name="ptchr_saturation_key_3">48FEE7D2</string>
+    <string name="ptchr_saturation_key_4">48FEE7D2</string>
+    <string name="ptchr_saturation2_key">OFF</string>
+    <string name="ptchr_processing_col_key_0">0</string>
+    <string name="ptchr_processing_col_key_3">0</string>
+    <string name="ptchr_processing_col_key_4">0</string>
+
+    <!-- Light/shadow and HDR tone -->
+    <string name="ptchr_light_shadow_key_0">1</string>
+    <string name="ptchr_light_shadow_key_1">1</string>
+    <string name="ptchr_light_shadow_key_2">1</string>
+    <string name="ptchr_light_shadow_key_3">1</string>
+    <string name="ptchr_light_shadow_key_4">1</string>
+    <string name="ptchr_ldr_hdr_key_0">1</string>
+    <string name="ptchr_ldr_hdr_key_1">1</string>
+    <string name="ptchr_ldr_hdr_key_2">1</string>
+    <string name="ptchr_ldr_hdr_key_3">1</string>
+    <string name="ptchr_ldr_hdr_key_4">1</string>
+    <string name="ptchr_hdr_overall_lightness_key">OFF</string>
+
+    <!-- Detail/sharpening: moderate, avoiding Redmi-specific sensor tuning -->
+    <string name="ptchr_sharpness_key_0">58FFE7D2</string>
+    <string name="ptchr_sharpness_key_1">58FFE7D2</string>
+    <string name="ptchr_sharpness_key_2">58FFE7D2</string>
+    <string name="ptchr_sharpness_key_3">58FFE7D2</string>
+    <string name="ptchr_sharpness_key_4">58FFE7D2</string>
+    <string name="ptchr_finalsharpness_key">OFF</string>
+    <string name="ptchr_sharpsmoothing_key">OFF</string>
+    <string name="ptchr_sabresharp_key">OFF</string>
+
+    <!-- Noise reduction: use conservative processing -->
+    <string name="ptchr_noisereduction_key_0">0010221E</string>
+    <string name="ptchr_noisereduction_key_2">0010221E</string>
+    <string name="ptchr_noisereduction_key_3">0010221E</string>
+    <string name="ptchr_noisereduction_key_4">0010221E</string>
+    <string name="ptchr_temporaldenoise_key_1">0190211E</string>
+    <string name="ptchr_lumanoise_key_0">40F6034F</string>
+    <string name="ptchr_lumanoise_key_1">OFF</string>
+    <string name="ptchr_lumanoise_key_2">40F6034F</string>
+    <string name="ptchr_lumanoise_key_3">40F6034F</string>
+    <string name="ptchr_lumanoise_key_4">40F6034F</string>
+
+    <!-- Chroma NR -->
+    <string name="ptchr_chromalow_key_0">C8FDE7D2</string>
+    <string name="ptchr_chromalow_key_1">C8FDE7D2</string>
+    <string name="ptchr_chromalow_key_2">C8FDE7D2</string>
+    <string name="ptchr_chromalow_key_3">C8FDE7D2</string>
+    <string name="ptchr_chromalow_key_4">C8FDE7D2</string>
+
+    <!-- Clarity / local detail -->
+    <string name="ptchr_clarity_key_0">08D02E1E</string>
+    <string name="ptchr_clarity_key_2">08D02E1E</string>
+    <string name="ptchr_clarity_key_3">08D02E1E</string>
+    <string name="ptchr_clarity_key_4">08902D1E</string>
+
+    <!-- Portrait / face processing -->
+    <string name="face_detect_key_0">1</string>
+    <string name="face_detect_key_1">1</string>
+    <string name="face_detect_key_2">1</string>
+    <string name="face_detect_key_3">1</string>
+    <string name="face_detect_key_4">1</string>
+    <string name="quality_photo_corrector_key">1</string>
+    <string name="quality_photo_corrector_key_0">1</string>
+    <string name="quality_photo_corrector_key_1">1</string>
+    <string name="quality_photo_corrector_key_2">1</string>
+    <string name="quality_photo_corrector_key_3">1</string>
+    <string name="quality_photo_corrector_key_4">1</string>
+    <string name="quality_portrait_corrector_key">1</string>
+    <string name="quality_portrait_corrector_key_0">1</string>
+    <string name="quality_portrait_corrector_key_1">1</string>
+    <string name="quality_portrait_corrector_key_2">1</string>
+    <string name="quality_portrait_corrector_key_3">1</string>
+    <string name="quality_portrait_corrector_key_4">1</string>
+
+    <!-- Exposure -->
+    <string name="expcomp_key">0</string>
+    <string name="expcomp_key_1">0</string>
+    <string name="ptchr_exposure_setting_key_0">1</string>
+    <string name="ptchr_exposure_setting_key_1">1</string>
+    <string name="ptchr_exposure_setting_key_2">1</string>
+    <string name="ptchr_exposure_setting_key_3">1</string>
+    <string name="ptchr_exposure_setting_key_4">1</string>
+
+    <!-- Video -->
+    <string name="pref_video_fps_key">FPS_30</string>
+    <string name="pref_video_fps_4k_key">FPS_30</string>
+    <string name="pref_video_fps_p2018_key">FPS_30</string>
+    <string name="pref_video_fps_cm_key">FPS_30</string>
+    <string name="eis_v_key">0</string>
+    <string name="eis_v_key_1">0</string>
+
+    <!-- UI / safe defaults -->
+    <string name="pref_camera_selfie_mirror_key">1</string>
+    <string name="pref_camera_grid_lines_mode">0</string>
+    <string name="pref_camera_recordlocation_key">0</string>
+    <string name="pref_camera_single_shot_sound_key">0</string>
+    <string name="pref_volume_key_action">shutter</string>
+    <string name="pref_double_tap_key">zoom</string>
+    <string name="preview_key">1</string>
+    <string name="autons_key">1</string>
+    <string name="a_banding_key">3</string>
+
+    <!-- Android 16 / OriginOS 6 safe storage defaults -->
+    <string name="pref_storage_saver_auto_disable">0</string>
+    <string name="fileformat_120_key">0</string>
+    <string name="fileformat_240_key">0</string>
+</map>
